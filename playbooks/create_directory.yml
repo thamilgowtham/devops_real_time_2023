@@ -15,4 +15,4 @@
         dest: /opt/docker
 
     - name: COPY WAR FILE
-      command: sudo scp -r root@172.31.77.67:/var/lib/jenkins/workspace/test123/webapp/target/webapp.war /opt/docker
+      command: sudo scp -r /var/lib/jenkins/workspace/test123/webapp/target/webapp.war /opt/docker
